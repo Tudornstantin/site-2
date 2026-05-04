@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALEXANDRA BECALI IMOBILIARE S.R.L. | Жилое строительство в Бухаресте</title>
+    <style>
+        :root {
+            --primary: #2c3e50; /* Темно-синий сланец */
+            --accent: #8e44ad;  /* Благородный фиолетовый */
+            --text: #34495e;
+            --bg-alt: #f8f9fa;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text);
+            background-color: var(--white);
+            line-height: 1.7;
+        }
+
+        /* Hero-секция */
+        header {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 120px 12%;
+            text-align: left;
+            border-bottom: 8px solid var(--accent);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            font-weight: 300;
+            letter-spacing: -1px;
+        }
+
+        header p {
+            font-size: 1.4rem;
+            margin-top: 20px;
+            max-width: 800px;
+            opacity: 0.8;
+        }
+
+        section {
+            padding: 100px 12%;
+        }
+
+        .section-header {
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 4px;
+            background-color: var(--accent);
+            margin-top: 15px;
+        }
+
+        /* Отраслевые блоки */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+
+        .feature-item {
+            padding: 30px;
+            background-color: var(--bg-alt);
+            border-radius: 4px;
+        }
+
+        .feature-item h3 {
+            color: var(--accent);
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        /* Список компетенций */
+        .competencies {
+            column-count: 2;
+            column-gap: 50px;
+            margin-top: 40px;
+        }
+
+        .competencies li {
+            margin-bottom: 12px;
+            list-style-type: none;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .competencies li::before {
+            content: "•";
+            color: var(--accent);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        /* Контактная зона */
+        .contact-box {
+            background-color: var(--primary);
+            color: white;
+            padding: 80px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .contact-box h2 { color: white; margin-bottom: 30px; }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: opacity 0.3s;
+        }
+
+        .btn:hover { opacity: 0.9; }
+
+        footer {
+            background-color: #1a252f;
+            color: #bdc3c7;
+            padding: 80px 12% 40px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 60px;
+        }
+
+        .footer-logo { color: white; font-size: 1.5rem; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ALEXANDRA BECALI IMOBILIARE</h1>
+        <p>Архитектура современной жизни: Проектирование и строительство жилых комплексов премиального уровня в Бухаресте.</p>
+    </header>
+
+    <section>
+        <div class="section-header">
+            <h2>О компании</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="grid">
+            <div>
+                <p>ALEXANDRA BECALI IMOBILIARE S.R.L. — ведущая строительная компания Румынии, специализирующаяся на возведении жилых зданий. Мы объединяем многолетний опыт в девелопменте с инновационными строительными технологиями для создания объектов, которые определяют облик современного Бухареста.</p>
+            </div>
+            <div>
+                <p>Наша деятельность охватывает полный цикл реализации проектов: от освоения земельных участков и подготовки фундаментов до финальной внешней отделки и ввода объектов в эксплуатацию. Мы выступаем в роли генерального подрядчика и оперативного застройщика, гарантируя качество на каждом этапе.</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: var(--bg-alt);">
+        <div class="section-header">
+            <h2>Наши компетенции</h2>
+            <div class="divider"></div>
+        </div>
+        <p>Обладая глубокой экспертизой в строительном секторе, мы реализуем проекты любой сложности:</p>
+        <ul class="competencies">
+            <li>Строительство жилых зданий</li>
+            <li>Подготовка земельных участков (Land Subdivision)</li>
+            <li>Строительство фундаментов и несущих конструкций</li>
+            <li>Внешние и фасадные работы</li>
+            <li>Строительство дорог и прилегающей инфраструктуры</li>
+            <li>Специализированные торговые подрядные работы</li>
+            <li>Управление строительным оборудованием</li>
+            <li>Строительство нежилых объектов</li>
+        </ul>
+    </section>
+
+    <section>
+        <div class="contact-box">
+            <h2>Начать сотрудничество</h2>
+            <p style="margin-bottom: 40px; opacity: 0.9;">Если вы заинтересованы в инвестициях или приобретении недвижимости в наших проектах, свяжитесь с нашим отделом по работе с партнерами.</p>
+            <a href="mailto:info@alexandrabecaliimobiliare.com" class="btn">Отправить запрос</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo">ALEXANDRA BECALI IMOBILIARE S.R.L.</div>
+                <p>Генеральный застройщик и эксперт в области жилой недвижимости в Румынии.</p>
+            </div>
+            <div>
+                <h4>Офис в Бухаресте</h4>
+                <p>ALEEA ALEXANDRU NR. 1-3<br>
+                SECTORUL 1, Bucuresti<br>
+                Bucuresti, Romania</p>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <p>Email: info@alexandrabecaliimobiliare.com</p>
+                <p>Сектор: Строительство жилых зданий</p>
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 60px; font-size: 0.8rem; border-top: 1px solid #34495e; padding-top: 20px;">
+            &copy; 2026 ALEXANDRA BECALI IMOBILIARE S.R.L. Все права защищены.
+        </p>
+    </footer>
+
+</body>
+</html>
